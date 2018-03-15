@@ -1,0 +1,87 @@
+// ----------------------------------------
+// TYPOGRAPHY
+// ----------------------------------------
+
+p {
+  font-family: $base-font-family;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+p,
+ul,
+ol,
+pre,
+table,
+blockquote,
+figure {
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.headline {
+  @include font-smoothing;
+  font-family: $header-font-family;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.headline {
+  &.-alpha {
+    font-size: rem(70px);
+    font-weight: 900;
+  }
+
+  &.-beta {
+    font-size: rem(48px);
+    font-weight: 900;
+  }
+
+  &.-gamma {
+    font-size: rem(22px);
+    font-weight: 400;
+    margin-bottom: 1em;
+  }
+
+  &.-italic {
+    font-style: italic;
+  }
+
+  &.-divider {
+    &:after {
+      background-color: $white;
+      content: '';
+      display: block;
+      height: rem(4px);
+      margin: 1em auto;
+      width: rem(35px);
+    }
+  }
+}
+
+@each $name, $value in $colors {
+  .-color-#{$name} {
+    color: $value;
+  }
+}

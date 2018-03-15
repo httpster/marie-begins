@@ -1,0 +1,10 @@
+// Font Smoothing
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Letter Spacing
+@mixin letter-spacing($space: 2px) {
+  letter-spacing: $space;
+}

@@ -1,0 +1,27 @@
+// ----------------------------------------
+// FONT FACE
+// ----------------------------------------
+
+// Brandon Grotesque Regular
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('./fonts/brandongrotesque-regular-webfont.woff2') format('woff2'), url('./fonts/brandongrotesque-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Brandon Grotesque Bold
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('./fonts/brandongrotesque-bold-webfont.woff2') format('woff2'), url('./fonts/brandongrotesque-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Brandon Grotesque Black Italic
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('./fonts/brandongrotesque-blackitalic-webfont.woff2') format('woff2'), url('./fonts/brandongrotesque-blackitalic-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}

@@ -1,0 +1,45 @@
+// ----------------------------------------
+// VARIABLES
+// ----------------------------------------
+
+// Colors
+$white:     hsl(0, 0%, 96%) !default;
+$black:     hsl(217, 23%, 19%) !default;
+$seafoam:   hsl(169, 26%, 84%) !default;
+$aqua:      hsl(181, 32%, 65%) !default;
+$blue:      hsl(194, 49%, 51%) !default;
+$purple:    hsl(222, 21%, 29%) !default;
+$red:       hsl(350, 55%, 55%) !default;
+$salmon:    hsl(2, 57%, 66%) !default;
+
+$colors: (
+	'white': $white,
+	'black': $black,
+	'seafoam': $seafoam,
+	'aqua': $aqua,
+	'blue': $blue,
+	'purple': $purple,
+	'red': $red,
+	'salmon': $salmon
+) !default;
+
+// Typography
+$base-font-size: 16px !default;
+$base-line-height: 24px !default;
+$sans-serif-font-family: 'BrandonGrotesque', sans-serif !default;
+$base-font-family: $sans-serif-font-family !default;
+$header-font-family: $base-font-family !default;
+
+// // Typography map
+// $typescale-map: (
+//   'alpha':     4.75rem,    // 76px
+//   'beta':      3.375rem,   // 54px
+//   'gamma':     2.25rem,    // 36px
+//   'delta':     1.75rem,    // 28px
+//   'epsilon':   1.25rem,    // 20px
+//   'zeta':      1.125rem,   // 18px
+//   'eta':       1rem,       // 16px
+//   'caption':   0.75rem,    // 12px
+//   'legal':     0.625rem,   // 10px
+//   'p':         1rem,       // 16px
+// ) !default;
